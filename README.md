@@ -9,9 +9,9 @@
 
 > На данный момент существуют 3 страницы: страница поиска, страница профиля и страница добавления новых мест и изменение ранее созданных.
 
-#### [Страница поиска](https://www.figma.com/file/ON42L4MDssYe6ntXO7zS1W/Megaploh?node-id=0%3A3)
+#### Страница поиска
 ![image](/WebsiteLayout/SearchPage.png)
-#### [Страница профиля](https://www.figma.com/file/ON42L4MDssYe6ntXO7zS1W/Megaploh?node-id=4%3A11)
+#### Страница профиля
 ![image](/WebsiteLayout/ProfilePage.png)
-#### [Страница добавления места](https://www.figma.com/file/ON42L4MDssYe6ntXO7zS1W/Megaploh?node-id=8%3A26)
+#### Страница добавления места
 ![image](/WebsiteLayout/AddPlacePage.png)
