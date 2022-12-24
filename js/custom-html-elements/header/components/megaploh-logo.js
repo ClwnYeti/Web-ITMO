@@ -14,7 +14,7 @@ class MegaplohLogo extends HTMLElement{
             pathPrefix = "../"
         }
         this.shadowRoot.innerHTML = `
-                    <link rel="stylesheet" href="${pathPrefix}css/for-imports/megaploh-logo.css">
+                    <link rel="stylesheet" href="https://clwnyeti.github.io/Web-ITMO/css/for-imports/megaploh-logo.css">
                     <button class="nav__logo" onclick="location.href='${this.getAttribute('href')}'">
                         <img src="${this.getAttribute('img')}" alt="Logo">
                     </button>

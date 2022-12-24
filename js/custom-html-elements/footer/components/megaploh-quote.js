@@ -13,7 +13,7 @@ class MegaplohQuote extends HTMLElement{
             pathPrefix = "../"
         }
         this.shadowRoot.innerHTML = `
-                    <link rel="stylesheet" href="${pathPrefix}css/for-imports/megaploh-contact.css">
+                    <link rel="stylesheet" href="https://clwnyeti.github.io/Web-ITMO/css/for-imports/megaploh-quote.css">
                     <p class="info__text">
                         <q class="info__quote">${this.textContent}</q> <strong>- ${this.getAttribute("author")}</strong>
                     </p>

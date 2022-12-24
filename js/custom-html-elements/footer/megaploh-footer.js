@@ -7,16 +7,9 @@ class MegaplohFooter extends HTMLElement{
     }
 
     connectedCallback() {
-        let address = document.URL.split("/");
-        let page = address[address.length - 1];
-        let pathPrefix = ""
-        if (page !== "index.html") {
-            pathPrefix = "../"
-        }
         this.setAttribute("load-time", "")
-        this.className = "info__container"
         this.shadowRoot.innerHTML = `
-        <link rel="stylesheet" href="${pathPrefix}css/for-imports/megaploh-footer.css">
+        <link rel="stylesheet" href="https://clwnyeti.github.io/Web-ITMO/css/for-imports/megaploh-footer.css">
             <div class="info">
                 <div class="info__contacts">
                     <megaploh-contact name="Telegram">@Yetixd</megaploh-contact>
@@ -35,15 +28,9 @@ class MegaplohFooter extends HTMLElement{
     static get observedAttributes() { return ["load-time"]; }
 
     attributeChangedCallback(name, oldValue, newValue) {
-        let address = document.URL.split("/");
-        let page = address[address.length - 1];
-        let pathPrefix = ""
-        if (page !== "index.html") {
-            pathPrefix = "../"
-        }
         if (name === "load-time") {
             this.shadowRoot.innerHTML = `
-        <link rel="stylesheet" href="${pathPrefix}css/for-imports/megaploh-footer.css">
+        <link rel="stylesheet" href="https://clwnyeti.github.io/Web-ITMO/css/for-imports/megaploh-footer.css">
             <div class="info">
                 <div class="info__contacts">
                     <megaploh-contact name="Telegram">@Yetixd</megaploh-contact>
