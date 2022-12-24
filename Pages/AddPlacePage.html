@@ -3,70 +3,29 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1,minimum-scale=1">
-  <link rel="stylesheet" href="../CSS/styles.css">
-  <title>Страница поиска</title>
+  <link rel="stylesheet" href="../css/for-imports/add-place-page-styles.css">
+  <script src="../js/custom-html-elements/header/megaploh-header.js"></script>
+  <script src="../js/custom-html-elements/header/components/megaploh-header-button.js"></script>
+  <script src="../js/custom-html-elements/header/components/megaploh-logo.js"></script>
+  <script src="../js/custom-html-elements/footer/megaploh-footer.js"></script>
+  <script src="../js/custom-html-elements/footer/components/megaploh-contact.js"></script>
+  <script src="../js/custom-html-elements/footer/components/megaploh-quote.js"></script>
+  <script src="../js/functions/load-time.js"></script>
+  <script src="../js/custom-html-elements/content/menu/forms/megaploh-add-place-form.js"></script>
+  <script src="../js/custom-html-elements/content/entities/megaploh-place.js"></script>
+  <title>Добавить место</title>
 </head>
-<body>
-<header>
-  <div class="nav">
-    <div class="nav__logo__container">
-      <a class="nav__logo" href="../index.html">
-        <img src="../Images/logo.png" alt="Logo">
-      </a>
-    </div>
-    <div class="nav__ascii">
-        <pre>___ ___    ___   ____   ____  ____  _       ___   __ __
-|   |   |  /  _] /    | /    ||    \| |     /   \ |  |  |
-| _   _ | /  [_ |   __||  o  ||  o  ) |    |     ||  |  |
-|  \_/  ||    _]|  |  ||     ||   _/| |___ |  O  ||  _  |
-|   |   ||   [_ |  |_ ||  _  ||  |  |     ||     ||  |  |
-|   |   ||     ||     ||  |  ||  |  |     ||     ||  |  |
-|___|___||_____||___,_||__|__||__|  |_____| \___/ |__|__|</pre>
-    </div>
-    <div class="nav__buttons">
-      <div class="nav__item__container">
-        <a class="nav__item" href="SearchPage.html">
-          Find place
-        </a>
-      </div>
-      <div class="nav__item__container">
-        <a class="nav__item" href="AddPlacePage.html">
-          Add place
-        </a>
-      </div>
-      <div class="nav__item__container">
-        <a class="nav__item" href="ProfilePage.html">
-          Profile
-        </a>
-      </div>
-    </div>
+<body class="main-container">
+<megaploh-header class="nav__container">
+</megaploh-header>
+<div class="content__container">
+  <megaploh-add-place-form class="content__form__container">
+  </megaploh-add-place-form>
+  <div class="content__places">
   </div>
-</header>
-<footer>
-  <div class="info">
-    <div class="info__contacts">
-      <div class="info__contact__container">
-        <p class="info__text">
-          <strong>Telegram: </strong> @Yetixd
-        </p>
-      </div>
-      <div class="info__contact__container">
-        <p class="info__text">
-          <strong>Github: </strong> ClwnYeti
-        </p>
-      </div>
-      <div class="info__contact__container">
-        <p class="info__text">
-          <strong>Discord: </strong> ClwnYeti#2648
-        </p>
-      </div>
-    </div>
-    <div class="info__quote__container">
-      <p class="info__text">
-        <q class="info__quote">Я хочу в Питер, чтобы было скибидипапа</q> <strong>- Максим Пезин</strong>
-      </p>
-    </div>
-  </div>
-</footer>
+</div>
+<megaploh-footer class="info__container">
+  <span id="load-time"></span>
+</megaploh-footer>
 </body>
 </html>

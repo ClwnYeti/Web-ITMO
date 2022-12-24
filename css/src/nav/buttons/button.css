@@ -1,0 +1,43 @@
+.nav__button {
+    padding: 10px 0;
+
+    width: 100%;
+
+    background-color: #AA4D6C;
+    color: #000000;
+
+    border: 1px #000000 solid;
+    border-radius: 50px;
+
+    text-align: center;
+    text-decoration-line: none;
+
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.navigation_list__button:hover {
+    background-color: #cf91a5;
+}
+
+.navigation_list__button:active {
+    background-color: #deb4c1;
+}
+
+.nav__button__selected {
+    padding: 10px 0;
+
+    width: 100%;
+
+    background-color: #bd003f;
+    color: #000000;
+
+    border: 1px #000000 solid;
+    border-radius: 50px;
+
+    text-align: center;
+    text-decoration-line: none;
+
+    display: inline-block;
+    vertical-align: middle;
+}

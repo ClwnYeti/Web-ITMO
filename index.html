@@ -1,135 +1,25 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="ru" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1,minimum-scale=1">
-    <link rel="stylesheet" href="CSS/styles.css">
-    <title>Стартовая страница</title>
+    <link rel="stylesheet" href="css/for-imports/search-page-styles.css">
+    <script src="js/custom-html-elements/header/megaploh-header.js"></script>
+    <script src="js/custom-html-elements/header/components/megaploh-header-button.js"></script>
+    <script src="js/custom-html-elements/header/components/megaploh-logo.js"></script>
+    <script src="js/custom-html-elements/footer/megaploh-footer.js"></script>
+    <script src="js/custom-html-elements/footer/components/megaploh-contact.js"></script>
+    <script src="js/custom-html-elements/footer/components/megaploh-quote.js"></script>
+    <script src="js/functions/load-time.js"></script>
+    <title>Страница поиска</title>
 </head>
-<body>
-<header>
-    <div class="nav">
-        <div class="nav__logo__container">
-            <a class="nav__logo" href="index.html">
-                <img src="Images/logo.png" alt="Logo">
-            </a>
-        </div>
-        <div class="nav__ascii">
-        <pre>___ ___    ___   ____   ____  ____  _       ___   __ __
-|   |   |  /  _] /    | /    ||    \| |     /   \ |  |  |
-| _   _ | /  [_ |   __||  o  ||  o  ) |    |     ||  |  |
-|  \_/  ||    _]|  |  ||     ||   _/| |___ |  O  ||  _  |
-|   |   ||   [_ |  |_ ||  _  ||  |  |     ||     ||  |  |
-|   |   ||     ||     ||  |  ||  |  |     ||     ||  |  |
-|___|___||_____||___,_||__|__||__|  |_____| \___/ |__|__|</pre>
-        </div>
-        <div class="nav__buttons">
-            <div class="nav__item__container">
-                <a class="nav__item" href="Pages/SearchPage.html">
-                    Find place
-                </a>
-            </div>
-            <div class="nav__item__container">
-                <a class="nav__item" href="Pages/AddPlacePage.html">
-                    Add place
-                </a>
-            </div>
-            <div class="nav__item__container">
-                <a class="nav__item" href="Pages/ProfilePage.html">
-                    Profile
-                </a>
-            </div>
-        </div>
-    </div>
-</header>
-<main>
-    <h1 class="content__text">Информация по сайту</h1>
-    <div class="content">
-        <ul class="content__list">
-            <li class="content__list__item">Странница поиска
-                <ul class="content__inner-list">
-                    <li class="content__list__inner-item">
-                        Фильтрация
-                    </li>
-                    <li class="content__list__inner-item">
-                        Поиск
-                    </li>
-                </ul>
-            </li>
-            <li class="content__list__item">Странница добавления
-                <ul class="content__inner-list">
-                    <li class="content__list__inner-item">
-                        Теги
-                    </li>
-                    <li class="content__list__inner-item">
-                        Создание
-                    </li>
-                </ul>
-            </li>
-            <li class="content__list__item">Странница профиля
-                <ul class="content__inner-list">
-                    <li class="content__list__inner-item">
-                        Информация
-                    </li>
-                    <li class="content__list__inner-item">
-                        Добавленные отзывы
-                    </li>
-                </ul>
-            </li>
-        </ul>
-        <div class="content__table">
-            <div class="content__table__odd-item">
-                <p class="content__text">
-                    Крутой...
-                </p>
-            </div>
-            <div class="content__table__even-item">
-                <p class="content__text">
-                    Правда
-                </p>
-            </div>
-        </div>
-        <div class="content__code__container">
-            <pre class="content__code">function binary_search(A, n, T) is
-    L := 0
-    R := n − 1
-    while L ≤ R do
-        m := floor((L + R) / 2)
-        if A[m] < T then
-            L := m + 1
-        else if A[m] > T then
-            R := m − 1
-        else:
-            return m
-    return unsuccessful</pre>
-        </div>
-    </div>
-</main>
-<footer>
-    <div class="info">
-        <div class="info__contacts">
-            <div class="info__contact__container">
-                <p class="info__text">
-                    <strong>Telegram: </strong> @Yetixd
-                </p>
-            </div>
-            <div class="info__contact__container">
-                <p class="info__text">
-                    <strong>Github: </strong> ClwnYeti
-                </p>
-            </div>
-            <div class="info__contact__container">
-                <p class="info__text">
-                    <strong>Discord: </strong> ClwnYeti#2648
-                </p>
-            </div>
-        </div>
-        <div class="info__quote__container">
-            <p class="info__text">
-                <q class="info__quote">Я хочу в Питер, чтобы было скибидипапа</q> <strong>- Максим Пезин</strong>
-            </p>
-        </div>
-    </div>
-</footer>
+<body class="main-container">
+<megaploh-header class="nav__container">
+</megaploh-header>
+<div class="content__container">
+</div>
+<megaploh-footer>
+    <span id="load-time"></span>
+</megaploh-footer>
 </body>
 </html>

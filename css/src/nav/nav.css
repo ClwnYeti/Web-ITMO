@@ -1,0 +1,12 @@
+.nav {
+    margin: inherit;
+    padding: 5px;
+
+    height: calc(100% - 10px);
+    width: calc(100% - 10px);
+
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}

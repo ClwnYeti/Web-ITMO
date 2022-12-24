@@ -1,0 +1,10 @@
+.info__text__container {
+    margin: 0 10px;
+
+    width: 15%;
+}
+@media (max-width: 805px) {
+    .info__text__container{
+        display: none;
+    }
+}

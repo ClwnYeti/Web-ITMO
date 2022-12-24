@@ -1,0 +1,30 @@
+.nav__logo__container
+{
+    margin: 0;
+
+    width: 20%;
+
+    display: inline-flex;
+    justify-content: center;
+
+}
+@media (max-width: 1200px) {
+    .nav__logo__container {
+        width: 30%;
+    }
+}
+@media (max-width: 750px) {
+    .nav__logo__container {
+        width: 275px;
+    }
+}
+@media (max-width: 750px) {
+    .nav__logo__container {
+        width: 40%;
+    }
+}
+@media (max-width: 525px) {
+    .nav__logo__container {
+        width: 300px;
+    }
+}

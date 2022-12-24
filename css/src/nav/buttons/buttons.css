@@ -1,0 +1,14 @@
+.nav__buttons {
+    margin: 15px;
+
+    width: 20%;
+
+    display: flex;
+    justify-content: space-around;
+}
+@media(max-width: 1375px)
+{
+    .nav__buttons {
+        width: 275px;
+    }
+}

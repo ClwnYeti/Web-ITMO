@@ -1,0 +1,22 @@
+.nav__ascii {
+    margin: 0 15px 15px 15px;
+
+    width: 50%;
+    height: 100px;
+
+    color: #AA4D6C;
+
+    text-align: center;
+
+    display: inline-block;
+}
+
+.nav__ascii pre {
+    margin: 0;
+}
+
+@media (max-width: 750px) {
+    .nav__ascii {
+        display: none;
+    }
+}

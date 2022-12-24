@@ -1,0 +1,10 @@
+.info__quote__container {
+    margin: 0 10px;
+
+    width: 35%;
+}
+@media (max-width: 610px) {
+    .info__quote__container{
+        display: none;
+    }
+}

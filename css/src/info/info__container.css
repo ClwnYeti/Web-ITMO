@@ -1,0 +1,30 @@
+.info__container {
+    margin: 0;
+    padding: 0;
+
+    height: auto;
+    width: 100%;
+
+    background-color: #611726;
+    justify-content: center;
+    display: flex;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
+
+footer.info__container{
+    margin: 0;
+    padding: 0;
+
+    height: auto;
+    width: 100%;
+
+    position: fixed;
+    left: 0;
+    bottom: 0;
+
+    background-color: #611726;
+    justify-content: center;
+    display: flex;
+}

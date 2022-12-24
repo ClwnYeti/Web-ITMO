@@ -1,0 +1,9 @@
+.info__text {
+    margin: 0;
+
+    width: 100%;
+
+    text-align: center;
+    font-size: large;
+    text-decoration-line: grammar-error;
+}

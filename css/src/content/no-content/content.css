@@ -1,0 +1,12 @@
+.no-content {
+    padding: 5px;
+
+    height: calc(100% - 10px);
+    width: calc(100% - 10px);
+
+    flex-flow: column;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #56001D;
+}

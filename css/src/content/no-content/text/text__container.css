@@ -1,0 +1,17 @@
+.no-content__text__container {
+    padding: 10px 0;
+
+    width: 50%;
+
+    background-color: #bd003f;
+    color: #000000;
+
+    border: 1px #000000 solid;
+    border-radius: 50px;
+
+    text-align: center;
+    text-decoration-line: none;
+
+    display: inline-block;
+    vertical-align: middle;
+}

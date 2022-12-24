@@ -1,0 +1,13 @@
+.nav__logo {
+    margin: 10px 5px;
+
+    width: 200px;
+    height: 75px;
+
+    background-color: #AA4D6C;
+
+    border: 2px #000000 solid;
+    border-radius: 50px;
+
+    display: inline-block;
+}

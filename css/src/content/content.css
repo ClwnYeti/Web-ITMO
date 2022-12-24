@@ -1,0 +1,12 @@
+.content {
+    padding: 5px;
+
+    height: calc(100% - 10px);
+    width: calc(100% - 10px);
+
+    flex-flow: row;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    background-color: #56001D;
+}

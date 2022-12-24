@@ -1,0 +1,12 @@
+.info__contacts {
+    margin: 5px;
+
+    width: 30%;
+    display: grid;
+    justify-content: center;
+}
+@media (max-width: 610px) {
+    .info__contacts{
+        width: 100%;
+    }
+}
