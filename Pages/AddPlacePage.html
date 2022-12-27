@@ -10,8 +10,9 @@
   <script src="../js/custom-html-elements/footer/megaploh-footer.js"></script>
   <script src="../js/custom-html-elements/footer/components/megaploh-contact.js"></script>
   <script src="../js/custom-html-elements/footer/components/megaploh-quote.js"></script>
-  <script src="../js/functions/load-time.js"></script>
+  <script src="../js/functions/loadTime.js"></script>
   <script src="../js/functions/forms/submitPlace.js"></script>
+  <script src="../js/functions/clearPlaces.js"></script>
   <script src="../js/custom-html-elements/content/entities/megaploh-place.js"></script>
   <title>Добавить место</title>
 </head>
@@ -19,18 +20,19 @@
 <megaploh-header class="nav__container">
 </megaploh-header>
 <div class="content__container">
-  <div class="content__form__container">
+  <div class="content__menu__container">
     <div class="content__form__add-place">
-      <div class="content__forms__add-place__input">
-        <p class="content__text">Name of place <input type="text" name="placeNameInput"></p>
+      <div class="content__form__add-place__input">
+        <p class="content__text">Name of place <input type="text" name="placeNameInput" class="content__form__add-place__input"></p>
       </div>
-      <div class="content__forms__add-place__input">
-        <p class="content__text">Address of place <input type="text" name="placeAddressInput"></p>
+      <div class="content__form__add-place__input">
+        <p class="content__text">Address of place <input type="text" name="placeAddressInput" class="content__form__add-place__input"></p>
       </div>
-      <div class="content__forms__add-place__input">
-        <p><input type="submit" onclick=submitPlace()></p>
+      <div  class="content__form__add-place__input">
+       <input type="submit" class="content__button" onclick=submitPlace()>
       </div>
     </div>
+    <button onclick="clearPlaces()" class="content__button">Удалить все</button>
   </div>
   <div class="content__places">
 

@@ -10,13 +10,23 @@
     <script src="js/custom-html-elements/footer/megaploh-footer.js"></script>
     <script src="js/custom-html-elements/footer/components/megaploh-contact.js"></script>
     <script src="js/custom-html-elements/footer/components/megaploh-quote.js"></script>
-    <script src="js/functions/load-time.js"></script>
+    <script src="js/custom-html-elements/content/entities/megaploh-place.js"></script>
+    <script src="js/functions/loadPlaces.js"></script>
+    <script src="js/functions/loadTime.js"></script>
     <title>Страница поиска</title>
 </head>
 <body class="main-container">
 <megaploh-header class="nav__container">
 </megaploh-header>
 <div class="content__container">
+    <div class="content__container">
+        <div class="content__menu__container">
+            <button onclick="getPlaces()" class="content__button">Получить список</button>
+        </div>
+        <div class="content__places">
+
+        </div>
+    </div>
 </div>
 <megaploh-footer>
     <span id="load-time"></span>

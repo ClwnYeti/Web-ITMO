@@ -38,6 +38,7 @@ class MegaplohFooter extends HTMLElement{
     attributeChangedCallback(name, oldValue, newValue) {
         let address = document.URL.split("/");
         let page = address[address.length - 1];
+        page = page.split("?")[0]
         let pathPrefix = ""
         if (page !== "index.html") {
             pathPrefix = "../"

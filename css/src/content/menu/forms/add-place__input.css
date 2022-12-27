@@ -1,0 +1,10 @@
+.content__form__add-place__input {
+    width: 80%;
+    padding: 2px;
+    display: flex;
+    justify-content: center;
+}
+
+input.content__form__add-place__input {
+    padding: 0;
+}

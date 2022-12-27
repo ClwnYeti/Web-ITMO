@@ -1,0 +1,36 @@
+.content__button {
+    padding: 10px 0;
+
+    width: 80%;
+
+    background-color: #AA4D6C;
+    color: #000000;
+
+    border: 1px #000000 solid;
+    border-radius: 50px;
+
+    text-align: center;
+    text-decoration-line: none;
+    font-size: medium;
+    font-family: "Times New Roman";
+    display: inline-block;
+    vertical-align: middle;
+}
+
+@media (max-width: 500px) {
+    .content__button {
+        font-size: small;
+    }
+}
+
+@media (max-width: 400px) {
+    .content__button {
+        font-size: x-small;
+    }
+}
+
+@media (max-width: 300px) {
+    .content__button {
+        font-size: xx-small;
+    }
+}
