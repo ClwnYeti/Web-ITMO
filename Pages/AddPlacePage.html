@@ -19,8 +19,19 @@
 <megaploh-header class="nav__container">
 </megaploh-header>
 <div class="content__container">
-  <megaploh-add-place-form class="content__form__container">
-  </megaploh-add-place-form>
+  <div class="content__form__container">
+    <div class="content__form__add-place">
+      <div class="content__forms__add-place__input">
+        <p class="content__text">Name of place <input type="text" name="placeNameInput"></p>
+      </div>
+      <div class="content__forms__add-place__input">
+        <p class="content__text">Address of place <input type="text" name="placeAddressInput"></p>
+      </div>
+      <div class="content__forms__add-place__input">
+        <p><input type="submit" onclick=submitPlace()></p>
+      </div>
+    </div>
+  </div>
   <div class="content__places">
   </div>
 </div>

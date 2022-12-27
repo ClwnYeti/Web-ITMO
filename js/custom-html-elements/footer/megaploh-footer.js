@@ -7,7 +7,6 @@ class MegaplohFooter extends HTMLElement{
     }
 
     connectedCallback() {
-        this.setAttribute("load-time", "")
         this.shadowRoot.innerHTML = `
         <link rel="stylesheet" href="https://clwnyeti.github.io/Web-ITMO/css/for-imports/megaploh-footer.css">
             <div class="info">

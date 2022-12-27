@@ -9,6 +9,7 @@ class MegaplohQuote extends HTMLElement{
         let address = document.URL.split("/");
         let page = address[address.length - 1];
         let pathPrefix = ""
+        page = page.split("?")[0]
         if (page !== "index.html") {
             pathPrefix = "../"
         }

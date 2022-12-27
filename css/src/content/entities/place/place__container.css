@@ -1,0 +1,11 @@
+.content__place__container {
+    background-color: #AA4D6C;
+
+    width: 100%;
+
+    border: 2px #000000 solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+}

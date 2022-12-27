@@ -8,6 +8,7 @@ class MegaplohHeaderButton extends HTMLElement{
     connectedCallback() {
         let address = document.URL.split("/");
         let page = address[address.length - 1];
+        page = page.split("?")[0]
         let style = "nav__button"
         let hrefAddress = this.getAttribute('href').split("/")
         let hrefHtml = hrefAddress[hrefAddress.length - 1];

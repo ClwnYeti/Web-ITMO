@@ -10,7 +10,7 @@ class MegaplohHeader extends HTMLElement {
     connectedCallback() {
         let address = document.URL.split("/");
         let page = address[address.length - 1];
-
+        page = page.split("?")[0]
         let imgPath;
         if (page === "index.html") {
             imgPath = "https://clwnyeti.github.io/Web-ITMO/images/logo-alt.png"
