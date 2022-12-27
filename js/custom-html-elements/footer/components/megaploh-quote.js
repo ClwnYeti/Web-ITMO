@@ -8,6 +8,7 @@ class MegaplohQuote extends HTMLElement{
     connectedCallback() {
         let address = document.URL.split("/");
         let page = address[address.length - 1];
+        page = page.split("?")[0]
         let pathPrefix = ""
         page = page.split("?")[0]
         if (page !== "index.html") {

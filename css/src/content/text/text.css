@@ -1,9 +1,31 @@
-.conte__text {
+.content__text {
     margin: 0;
 
     width: 100%;
-
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
-    font-size: large;
+    font-family: "Times New Roman";
+    font-size: medium;
     text-decoration-line: grammar-error;
+}
+
+@media (max-width: 500px) {
+    .content__text {
+        font-size: small;
+    }
+}
+
+@media (max-width: 400px) {
+    .content__text {
+        font-size: x-small;
+    }
+}
+
+@media (max-width: 300px) {
+    .content__text {
+        font-size: xx-small;
+    }
 }
