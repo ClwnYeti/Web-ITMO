@@ -6,14 +6,8 @@ class MegaplohPlace extends HTMLElement{
     }
 
     connectedCallback() {
-        let address = document.URL.split("/");
-        let page = address[address.length - 1];
-        let pathPrefix = ""
-        if (page !== "index.html") {
-            pathPrefix = "../"
-        }
         this.shadowRoot.innerHTML = `
-                    <link rel="stylesheet" href="${pathPrefix}css/for-imports/megaploh-place.css">
+                    <link rel="stylesheet" href="https://clwnyeti.github.io/Web-ITMO/css/for-imports/megaploh-place.css">
                     <div class="content__place">
                         <div>
                             <p class="content__text">
@@ -32,16 +26,8 @@ class MegaplohPlace extends HTMLElement{
     static get observedAttributes() { return ["name", "address"]; }
 
     attributeChangedCallback(name, oldValue, newValue) {
-        let address = document.URL.split("/");
-        let page = address[address.length - 1];
-        page = page.split("?")[0]
-        let pathPrefix = ""
-        if (page !== "index.html") {
-            pathPrefix = "../"
-        }
-
         this.shadowRoot.innerHTML = `
-                    <link rel="stylesheet" href="${pathPrefix}css/for-imports/megaploh-place.css">
+                    <link rel="stylesheet" href="https://clwnyeti.github.io/Web-ITMO/css/for-imports/megaploh-place.css">
                     <div class="content__place">
                         <div>
                             <p class="content__text">
