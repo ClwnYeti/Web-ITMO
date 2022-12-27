@@ -1,0 +1,11 @@
+.content__form__add-place {
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+    flex-wrap: nowrap;
+    align-items: center;
+    background-color: #611726;
+}
