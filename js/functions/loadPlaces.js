@@ -29,7 +29,7 @@ async function getPlaces() {
     if (!isGetting) {
         isGetting = true
         const list = document.getElementsByClassName("content__places")[0]
-        list.innerHTML = `<img src="images/zxcursed.gif" alt="gif">`
+        list.innerHTML = `<img src="https://clwnyeti.github.io/Web-ITMO/images/zxcursed.gif" alt="gif">`
         let indexes = []
         indexes[0] = Math.round(Math.random() * (placesCountInDB - 1))
         do {
